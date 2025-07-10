@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 FROM node:23-alpine AS build
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
