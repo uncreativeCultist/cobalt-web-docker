@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
       additional_contexts:
-        cobalt-src: https://github.com/imputnet/cobalt.git
+        cobalt-src: https://github.com/uncreativeCultist/cobalt.git
 
       # these are at build time - remember they're from the perspective of the frontend
       # (e.g. "what would I put in my browser to get to the frontend/API")
